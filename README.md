@@ -8,3 +8,15 @@
 
 ![Sales by Product](outputs/sales_by_product.png)
 
+## Key Performance Indicators (KPI)
+
+- **Total Revenue:** 8100  
+- **Average Daily Revenue:** 1157.14  
+- **Top Performing Region:** Vilnius  
+- **Top Performing Product:** A  
+
+## Business Insights
+
+The analysis shows that Vilnius is the strongest performing region.  
+Product A generates the highest revenue.  
+Strategic focus should be placed on scaling top-performing regions and improving performance in lower-performing areas.
