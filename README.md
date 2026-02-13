@@ -1,39 +1,94 @@
-# Sales Performance Analysis
+# 📊 Sales Performance Analysis – Case Study
 
-This project analyzes sales data to identify top-performing regions and products, calculate key performance indicators (KPI), and generate business insights using Python (pandas, matplotlib).
+## 1. Project Overview
 
-The goal of this analysis is to demonstrate practical data analysis skills including:
-- Data aggregation
-- KPI calculation
-- Percentage share analysis
-- Data visualization
-- Business insight generation
+This project analyzes company sales data to evaluate performance across regions and products.  
+The objective was to identify top-performing areas, calculate key performance indicators (KPIs), and generate actionable business insights.
 
+This case study demonstrates practical data analysis skills using Python.
 
-# Sales Performance Analysis
+---
 
-## Sales by Region
+## 2. Business Problem
 
-![Sales by Region](outputs/sales_by_region.png)
+The company wants to understand:
 
-## Sales by Product
+- Which region generates the highest revenue?
+- Which product performs best?
+- What is the overall revenue performance?
+- How is revenue distributed across regions?
 
-![Sales by Product](outputs/sales_by_product.png)
+---
 
-## Key Performance Indicators (KPI)
+## 3. Tools & Technologies
+
+- Python
+- pandas
+- matplotlib
+- Git & GitHub
+
+---
+
+## 4. Data Overview
+
+The dataset includes:
+
+- Date
+- Region
+- Product
+- Sales revenue
+- Quantity sold
+
+---
+
+## 5. Key Performance Indicators (KPI)
 
 - **Total Revenue:** 8100  
 - **Average Daily Revenue:** 1157.14  
 - **Top Performing Region:** Vilnius  
 - **Top Performing Product:** A  
 
-## Business Insights
+---
 
-The analysis shows that Vilnius is the strongest performing region.  
-Product A generates the highest revenue.  
-Strategic focus should be placed on scaling top-performing regions and improving performance in lower-performing areas.
+## 6. Visual Analysis
 
-## Region Sales Share (%)
+### 📌 Sales by Region
+
+![Sales by Region](outputs/sales_by_region.png)
+
+### 📌 Sales by Product
+
+![Sales by Product](outputs/sales_by_product.png)
+
+### 📌 Region Sales Share (%)
 
 ![Region Sales Share](outputs/region_sales_share.png)
 
+---
+
+## 7. Business Insights
+
+- Vilnius is the strongest performing region.
+- Product A generates the highest revenue.
+- Revenue distribution shows moderate regional concentration.
+- Strategic focus should be placed on scaling top-performing regions and improving lower-performing areas.
+
+---
+
+## 8. Conclusion
+
+This analysis provides a structured overview of sales performance and highlights strategic growth opportunities.
+
+The project demonstrates:
+- Data aggregation
+- KPI calculation
+- Percentage share analysis
+- Data visualization
+- Business insight generation
+- End-to-end project structure (Git + GitHub)
+
+---
+
+## 9. How to Run the Project
+
+1. Install dependencies:
