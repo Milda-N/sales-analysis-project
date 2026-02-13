@@ -20,3 +20,8 @@
 The analysis shows that Vilnius is the strongest performing region.  
 Product A generates the highest revenue.  
 Strategic focus should be placed on scaling top-performing regions and improving performance in lower-performing areas.
+
+## Region Sales Share (%)
+
+![Region Sales Share](outputs/region_sales_share.png)
+

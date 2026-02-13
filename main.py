@@ -74,5 +74,26 @@ print(f"The strongest region is {top_region}, contributing the highest sales.")
 print(f"The best performing product is {top_product}.")
 print("Focus on scaling top-performing regions and optimizing weaker areas for growth.")
 
+print("\n--- REGION SALES SHARE (%) ---")
 
+# Pardavimai pagal regioną
+region_sales = df.groupby("region")["sales"].sum()
+
+# Procentinė dalis
+region_share = (region_sales / total_revenue) * 100
+
+for region, percentage in region_share.items():
+    print(f"{region}: {round(percentage, 2)}%")
+
+
+# Pie chart - regionų dalis
+plt.figure()
+
+region_share.plot(kind="pie", autopct="%1.1f%%")
+
+plt.title("Region Sales Share (%)")
+plt.ylabel("")  # pašalinam default y label
+
+plt.savefig("outputs/region_sales_share.png")
+plt.show()
 
