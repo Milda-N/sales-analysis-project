@@ -1,5 +1,17 @@
 # Sales Performance Analysis
 
+This project analyzes sales data to identify top-performing regions and products, calculate key performance indicators (KPI), and generate business insights using Python (pandas, matplotlib).
+
+The goal of this analysis is to demonstrate practical data analysis skills including:
+- Data aggregation
+- KPI calculation
+- Percentage share analysis
+- Data visualization
+- Business insight generation
+
+
+# Sales Performance Analysis
+
 ## Sales by Region
 
 ![Sales by Region](outputs/sales_by_region.png)
