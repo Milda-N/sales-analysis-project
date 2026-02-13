@@ -1,0 +1,8 @@
+date,region,product,sales,quantity
+01/01/2024,Vilnius,A,1200,10
+02/01/2024,Kaunas,B,800,5
+03/01/2024,Vilnius,A,1500,12
+04/01/2024,Klaipeda,C,600,4
+05/01/2024,Kaunas,A,2000,15
+06/01/2024,Vilnius,C,900,7
+07/01/2024,Klaipeda,B,1100,9
