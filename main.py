@@ -35,6 +35,21 @@ plt.savefig("outputs/sales_by_region.png")
 
 plt.show()
 
+# Pardavimai pagal produktą
+sales_by_product = df.groupby("product")["sales"].sum()
+
+sales_by_product.plot(kind="bar")
+
+plt.title("Pardavimai pagal produktą")
+plt.xlabel("Produktas")
+plt.ylabel("Pardavimai")
+plt.xticks(rotation=0)
+
+plt.savefig("outputs/sales_by_product.png")
+
+plt.show()
+
+
 
 
 
