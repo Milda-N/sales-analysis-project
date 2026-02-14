@@ -6,6 +6,7 @@ df = pd.read_csv("sales_data.csv")
 print("Failas užkrautas sėkmingai!")
 print(df.head())
 
+
 print("\nBendra pardavimų suma:")
 print(df["sales"].sum())
 
